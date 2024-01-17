@@ -1,0 +1,93 @@
+/* Нижче завдання №1 */
+h3:first-child{
+    color: pink;
+}
+
+#greycol{
+    color: gray;
+}
+
+p:nth-child(odd){
+    color: green;
+}
+
+p:only-child{
+    color: red;
+}
+
+.yellow{
+    color: yellow;
+}
+
+/* Нижче завдання №2 */
+
+/* Пофарбуйте елементи списків у різні кольори */
+
+.fif{
+    background-color: brown;
+}
+
+.pip{
+    background-color: darkslategray;
+}
+
+.mim{
+    background-color: gold;
+}
+
+.cic{
+    background-color: midnightblue;
+}
+
+.ziz{
+    background-color: tomato;
+}
+
+/* Псевдокласи стану */
+
+.fif:hover{
+    color: yellow;
+    background-color: blue;
+}
+
+.pip:hover{
+    color: indigo;
+    background-color: lightgreen;
+}
+
+.mim:hover{
+    color: crimson;
+    background-color: aqua;
+}
+
+.cic:hover{
+    color: greenyellow;
+    background-color: firebrick;
+}
+
+.ziz:hover{
+    color: indianred;
+    background-color: darkorchid;
+}
+
+/* Структурні псевдокласи */
+
+li:first-child:hover{
+    color: azure;
+}
+
+li:last-child:hover{
+    color: honeydew;
+}
+
+li:nth-child:hover{
+    color: lawngreen;
+}
+
+li:nth-child(odd):hover{
+    color: orangered;
+}
+
+li:nth-child(3n):hover{
+    color: olive;
+}
